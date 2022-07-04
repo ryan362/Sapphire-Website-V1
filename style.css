@@ -1,0 +1,117 @@
+@font-face {font-family: "Neutra Text"; src: url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.eot"); src: url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.woff") format("woff"), url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/90820e3d7b32d7491b62bd1aae2aafbe.svg#Neutra Text") format("svg"); }
+
+* {
+  font-family: "Neutra Text", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+}
+
+form {
+  background: #000;
+  padding: 10px;
+  margin-bottom: 90px;
+}
+
+.Logo {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+
+p {
+  margin: 10px;
+}
+
+.Others {
+  width: auto;
+  height: 200px;
+  display: block;
+  margin: 20px auto 20px auto;
+  padding: 0px;
+}
+
+input, label {
+  display: block;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  text-align: center;
+  height: 100%;
+}
+
+.Bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div, #Show {
+  background: #1053bb;
+  padding: 10px;
+  width: 75%;
+  margin: 10px auto 10px auto;
+  display: block;
+  text-align: center;
+}
+
+input {
+  height: 100%;
+  width: 75%;
+}
+
+.Radio {
+  display: block;
+  height: auto;
+  margin: 0px auto 0px auto;
+  width: auto;
+}
+
+.Sex {
+  display: block;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: auto;
+}
+
+.Center {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 5px;
+}
+
+#Show {
+  visibility: hidden;
+}
+
+#Submit {
+  margin: 5px auto 5px auto;
+  background: #fff;
+  border: none;
+  width: 75%;
+  height: 100%;
+  color: #1053bb;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.Blue {
+  color: #1053bb !important;
+}
+
+.Black {
+  color: #000 !important;
+}
+
+.White {
+  color: #fff !important;
+}
+
+#Submit:hover {
+  background: #000 !important;
+}
