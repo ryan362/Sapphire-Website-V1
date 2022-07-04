@@ -1,6 +1,6 @@
 function SendMessage(Content) {
   const Request = new XMLHttpRequest();
-  Request.open("POST", "https://discord.com/api/webhooks/983929299679711292/7XkiiRYou1qCr4-vW8VtTsd1t1GcHefBMJAltW8-c7OMbane4GdsXIqlqX4CiPS_gcsq");
+  Request.open("POST", "die");
   Request.setRequestHeader('Content-type', 'application/json');
   const Data = {
     username: "Sapphire MGMT",
